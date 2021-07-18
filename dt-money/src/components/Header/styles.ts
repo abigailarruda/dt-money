@@ -27,12 +27,12 @@ export const Content = styled.div`
 
     height: 3rem;
 
-    transition: filter 0.4s;
+    transition: filter 0.2s ease-in-out;
 
     &:hover {
       filter: brightness(0.9);
 
-      transition: filter 0.4s;
+      transition: filter 0.2s ease-in-out;
     }
   }
 `;
